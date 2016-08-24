@@ -1,5 +1,7 @@
 LOWER = 33
 UPPER = 127
+
+
 def main():
     letter = input("Enter a character: ")
     ASCII = ord(letter)
@@ -18,5 +20,6 @@ def get_number(lower, upper):
         print("Please enter a valid number!")
         number = int(input("Enter a number between {} and {} : ".format(str(lower), str(upper))))
     return number
+
 
 main()

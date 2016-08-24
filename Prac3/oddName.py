@@ -1,4 +1,6 @@
 """Sarah"""
+
+
 def main():
     name = get_name()
     FREQUENCY = int(input("What frequency of letters would you like to display? "))
